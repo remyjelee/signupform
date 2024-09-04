@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="left">
+        <div class="textoverimage">
+            <img class="logo" src="images/logo.png" alt="logo for the odin project">
+            <div class="logoname">MANTRA</div>
+        </div>
+        <div class="thanks">Photo by <a href="https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Leung</a> on <a href="https://unsplash.com/photos/a-red-and-black-photo-of-water-and-clouds-zy2X702l6TA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </div>
+    </div>
+    <div class="right">
+        <div class="toptext">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up now to get started.<br><br>You know you want to.</div>
+         <form>
+            
+            <section>
+                <div class="title">Let's do this</div>
+                <div class="fieldspace">
+                    
+
+                    <div class="field">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" placeholder="Jeremy" name="firstname" id="firstname" required >
+                    </div>
+
+                    <div class="field">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" placeholder="Lee" name="lastname" id="firstname" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="number" pattern="\d{10}" name="phonenumber" id="phonenumber" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm" required>
+                    </div>
+                </div>
+            </section>
+
+            <button class="submit" type="submit">Create Account</button>
+
+        </form>
+        <div class="bottomtext">
+            <p class="alreadyhaveanaccount">
+                Already have an account?
+            </p>
+            <a class="login" href="pages/login">
+                Log in
+            </a>
+        </div>
+    </div>
+</body>
+</html>
